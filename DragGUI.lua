@@ -1,3 +1,5 @@
+wait(.25)
+
 script.Parent = game.StarterGui.ZareX
 script.Name = "Drag GUI"
 
