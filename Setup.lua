@@ -1,6 +1,6 @@
 
 -- Made by LukeBlack952/LosProTroll (GitHub/Roblox)
--- How to load on a Script Executor: Type "loadstring(game:HttpGet("", true))()"
+-- How to load on a Script Executor: Type "loadstring(game:HttpGet("https://github.com/LukeBlack952/ZareX.git", true))()"
 
 -- Variables
 local ZareX = Instance.new("ScreenGui")
@@ -48,3 +48,10 @@ Open.Size = UDim2.new(0.054, 0, 0.042, 0)
 Open.Text = "Open ZareX"
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 Open.TextScaled = true
+
+-- Open Script
+Open.MouseButton1Click:Connect(function()
+	Open.Parent.GUI.Visible = true
+	Open.Parent.SHGUI.Visible = true
+	Open.Visible = false
+end)
