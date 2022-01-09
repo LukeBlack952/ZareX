@@ -8,6 +8,9 @@ local Membership = Instance.new("StringValue")
 local GUI = Instance.new("Frame")
 local SHGUI = Instance.new("Frame")
 local Open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIC1 = UICorner:Clone()
+local UIC2  = UICorner:Clone()
 
 -- Setting Up Starter Gui
 ZareX.Name = "ZareX"
@@ -58,3 +61,9 @@ Open.MouseButton1Click:Connect(function()
 	Open.Parent.SHGUI.Visible = true
 	Open.Visible = false
 end)
+
+-- Setting Up UICorner
+UIC1.Parent = GUI
+UIC1.CornerRadius = UDim.new(0, 15)
+UIC2.Parent = SHGUI
+UIC2.CornerRadius = UDim.new(0, 15)
