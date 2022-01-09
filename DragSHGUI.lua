@@ -1,5 +1,5 @@
 script.Parent = game.StarterGui.ZareX.SHGUI
-script.Name = "Drag GUI"
+script.Name = "Drag SHGUI"
 
 local UserInputService = game:GetService("UserInputService")
 
