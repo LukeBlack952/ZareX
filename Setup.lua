@@ -1,6 +1,6 @@
 
 -- Made by LukeBlack952/LosProTroll (GitHub/Roblox)
--- How to load on a Script Executor: Type "loadstring()"
+-- How to load on a Script Executor: Type "loadstring(game:HttpGet("", true))()"
 
 -- Variables
 local ZareX = Instance.new("ScreenGui")
